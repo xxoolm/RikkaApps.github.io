@@ -39,6 +39,25 @@
     },
     {
         "order": 2,
+        "id": "technical_details",
+        "title": {
+            "zh-CN": "技术细节",
+            "zh-TW": "技術細節",
+            "en": "Technical details"
+        },
+        "summary": {
+            "zh-CN": "了解本应用的技术细节（为高级用户准备）",
+            "zh-TW": "瞭解本應用程式的技術細節（為高階使用者準備）",
+            "en": "Learn the technical details of this application (for advanced users)"
+        },
+        "content": {
+            "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=technical_details&title=技术细节",
+            "zh-TW": "https://rikka.app/storage_redirect/docs/zh-TW/?doc=technical_details&title=技術細節",
+            "en": "https://rikka.app/storage_redirect/docs/en/?doc=technical_details&title=Technical%20details"
+        }
+    },
+    {
+        "order": 3,
         "id": "faq",
         "title": {
             "zh-CN": "常见问题",
@@ -57,65 +76,9 @@
         }
     },
     {
-        "order": 3,
-        "id": "about_redirect",
-        "title": {
-            "zh-CN": "关于重定向",
-            "zh-TW": "關於重新導向",
-            "en": "About redirect"
-        },
-        "summary": {
-            "zh-CN": "了解开启重定向后应用的行为",
-            "zh-TW": "瞭解開啟重新導向後程式的行為",
-            "en": "Learn app behavior after redirect enabled"
-        },
-        "content": {
-            "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=关于重定向",
-            "zh-TW": "https://rikka.app/storage_redirect/docs/zh-TW/?doc=關於重新導向",
-            "en": "https://rikka.app/storage_redirect/docs/en/?doc=About%20redirect"
-        }
-    },
-    {
-        "order": 4,
-        "id": "about_link",
-        "title": {
-            "zh-CN": "关于链接",
-            "zh-TW": "關於連結",
-            "en": "About link"
-        },
-        "summary": {
-            "zh-CN": "什么是链接，为什么需要链接",
-            "zh-TW": "什麼是連結，為什麼需要連結",
-            "en": "What is a link and why we need it"
-        },
-        "content": {
-            "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=关于链接",
-            "zh-TW": "https://rikka.app/storage_redirect/docs/zh-TW/?doc=關於連結",
-            "en": "https://rikka.app/storage_redirect/docs/en/?doc=About%20link"
-        }
-    },
-    {
-        "order": 5,
-        "id": "enhance_module",
-        "title": {
-            "zh-CN": "增强模块",
-            "zh-TW": "增強模組",
-            "en": "Enhancement module"
-        },
-        "summary": {
-            "zh-CN": "解决被重定向的应用仍不时创建文件等",
-            "zh-TW": "解決被重新導向的程式仍不時建立檔案等",
-            "en": "Solve the problem that redirected apps still create files sometimes, and more"
-        },
-        "content": {
-            "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=增强模块",
-            "zh-TW": "https://rikka.app/storage_redirect/docs/zh-TW/?doc=增強模組",
-            "en": "https://rikka.app/storage_redirect/docs/en/?doc=Enhance%20module"
-        }
-    },
-    {
         "order": 6,
         "id": "what_is_share_helper",
+        "hide_from_list": true,
         "title": {
             "zh-CN": "什么是“分享助手”",
             "zh-TW": "什麼是「分享助手」",
@@ -149,6 +112,7 @@
     {
         "order": 8,
         "id": "payment",
+        "hide_from_list": true,
         "title": {
             "zh-CN": "购买问题",
             "zh-TW": "購買問題",
@@ -220,6 +184,41 @@
         "content": {
             "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=payment_alipay&title=购买问题",
             "zh-TW": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=payment_alipay&title=購買問題"
+        }
+    },
+    {
+        "order": 103,
+        "id": "enhanced_mode",
+        "hide_from_list": true,
+        "title": {
+            "zh-CN": "增强模式",
+            "zh-TW": "增強模式",
+            "en": "Enhanced mode"
+        },
+        "content": {
+            "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=enhanced_mode&title=增强模式",
+            "zh-TW": "https://rikka.app/storage_redirect/docs/zh-TW/?doc=enhanced_mode&title=增強模式",
+            "en": "https://rikka.app/storage_redirect/docs/en/?doc=enhanced_mode&title=Enhanced%20mode"
+        }
+    },
+    {
+        "order": 104,
+        "id": "enhance_module",
+        "hide_from_list": true,
+        "title": {
+            "zh-CN": "增强模块（v1.3.x 及之前）",
+            "zh-TW": "增強模組（v1.3.x 及之前）",
+            "en": "Enhancement module (for pre-v1.3.x)"
+        },
+        "summary": {
+            "zh-CN": "解决被重定向的应用仍不时创建文件等",
+            "zh-TW": "解決被重新導向的程式仍不時建立檔案等",
+            "en": "Solve the problem that redirected apps still create files sometimes, and more"
+        },
+        "content": {
+            "zh-CN": "https://rikka.app/storage_redirect/docs/zh-CN/?doc=增强模块",
+            "zh-TW": "https://rikka.app/storage_redirect/docs/zh-TW/?doc=增強模組",
+            "en": "https://rikka.app/storage_redirect/docs/en/?doc=Enhance%20module"
         }
     },
     {
